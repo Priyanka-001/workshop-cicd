@@ -1,0 +1,94 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    background-color: black;
+  }
+div{
+    position:relative;
+}
+div img{
+    width: 100%;
+    height: 600px;
+}
+header{
+    position:fixed;
+    background: rgb(33, 39, 39, 0.5);
+    width:100%;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+header p{
+    display:inline; 
+    color:white;
+    font-size: 24px;
+    margin: 50px;
+    text-align: center;
+}
+header input{
+    position:relative;
+    left:150px;
+    width: 600px;
+    padding:10px;
+    margin:10px;   
+}
+header a{
+    float:right;
+    padding:10px;
+    margin: 10px;
+    text-decoration: none;
+}
+.sign-up{
+    color: black;
+    background: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+.log-in{
+    color: white;
+    font-weight: bold;
+}
+section{
+    position: absolute;
+    margin: 200px auto ;
+    top:0px;
+    left:0px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+section h1{
+    font-size: 50px;
+    margin: 10px;
+}
+section p{
+    font-size: 20px;
+}
+section a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+footer{
+    background: black;
+    padding: 1px;
+}
+ul{
+    list-style-type: none;
+    color: rgb(255, 255, 255, 0.8);
+}
+footer li{
+    display: inline-block;
+    padding: 5px 30px;
+}
